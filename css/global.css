@@ -13870,12 +13870,12 @@ div.pp_default .pp_previous:hover {
 	background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
 	cursor: pointer;
 }
-div.pp_default .pp_expand {
+/* div.pp_default .pp_expand {
 	background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
 	cursor: pointer;
 	width: 28px;
 	height: 28px;
-}
+} */
 div.pp_default .pp_expand:hover {
 	background: url(../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
 	cursor: pointer;
