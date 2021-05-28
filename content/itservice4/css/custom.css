@@ -3,11 +3,29 @@
     #fotoFooter{
         width: 35%;
     }
+    #logoPersonal{
+        width: 25%;
+        margin-left: 41%;
+        margin-top: 10%;
+    }
+
+    #logoFibertel{
+        width: 25%;
+        margin-left: 41%;
+    }
 }
 
 @media only screen and (min-width: 458px)  {
 
     #fotoFooter{
         width: 20%;
+    }
+
+    #logoPersonal{
+        width: 100%;
+    }
+
+    #logoFibertel{
+        width: 100%;
     }
 }
