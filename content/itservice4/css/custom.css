@@ -29,3 +29,96 @@
         width: 50%;
     }
 }
+
+@media only screen and (min-width: 458px) {
+
+    #herodesktop{
+      background-image: url(/imagenes/personasCelu.jpeg);
+      background-size: cover;
+      height: 812px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      background-repeat: no-repeat;
+    }
+    #titulodesktop{
+      position: relative;
+      top: -15%;
+    }
+    #linea{
+      display: none;
+    }
+    #bajadamobile{
+      display: none;
+    }
+    #molinosmobile{
+      display: none;
+    }
+    #numeritosmobile{
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 458px) {
+  
+    #herodesktop{
+      background-image: url(/imagenes/mobilehero.jpg);
+      background-size: cover;
+      height: 812px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      background-repeat: no-repeat;
+    }
+    #break{
+      display: none;
+    }
+    #bajadadesktop{
+      display: none;
+    }
+    #espacio{
+      display: none;
+    }
+    #molinosdesk{
+      display: none;
+    }
+    #numeritosdesk{
+      display: none;
+    }
+    #bajada{
+      color: black !important;
+    }
+    #luz{
+      color: #fff !important;
+    }
+    #operaciones{
+      color: #fff !important;
+      line-height: normal;
+    }
+    #numeritos{
+      color: black !important;
+    }
+    #bajadamobile{
+     
+      line-height: normal;
+      padding: 10%;
+    }
+    #molinosmobile{
+     
+      padding: 10%;
+      line-height: normal;
+    }
+    #numeritosmobile{
+     
+      padding: 10%;
+      line-height: normal;
+    }
+  
+  }
