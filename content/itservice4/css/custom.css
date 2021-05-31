@@ -26,15 +26,19 @@
     }
 
     #logoPersonal{
-        width: 40%;
+        width: 45%;
     }
 
     #logoFibertel{
-        width: 40%;
+        width: 45%;
     }
 
     #divPersonal{
         margin-bottom: 6%;
+    }
+
+    #logosInner{
+        margin-left: 30%;
     }
 }
 
